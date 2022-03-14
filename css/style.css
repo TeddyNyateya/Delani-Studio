@@ -1,0 +1,179 @@
+/* General styles */
+body{
+    padding: 0%; 
+  }
+  
+  div.page {
+    min-height:15vh;
+   }
+  
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Welcome */
+  .p1{
+    font-size: 1vw;
+    color: white;
+    padding: 9%;
+  }
+  
+  .w-50{
+   margin: 12% 25%;
+   padding: 2%;
+   color: white;
+  }
+  
+  .imageL{
+    margin: 50%;
+    
+  }
+  /* About */
+  .w-51{
+    color: white;
+    font-size: 2vw;
+    margin: 7%;
+    font-weight: 200;
+  }
+  
+  #about{
+    font-size: 1.7vw;
+    margin: 5%;
+    font-weight: 200; 
+  }
+  
+  
+  /* What we do */
+  .functionBlock { 
+    width:20vw;
+    height:20vh; 
+    padding:2%}
+  
+  .functionBlock p { 
+    visibility: hidden
+  }
+  
+  .functionBlock.show p { 
+    visibility: visible;
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    padding: 1%;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+     padding: 20px;
+   
+  }
+  
+  .headerPortfolio{
+    padding: 4%;
+  }
+  #grid1{
+    padding: 2%;
+    width: 15vw;
+  }
+  .boxes {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+  
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .boxes:hover .image {
+    opacity:  0.5;
+    
+  }
+  
+  .boxes:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color:black;
+    font-size: 2.5vw;
+    padding: 10% 10% 10% 10%;
+    border: solid 2px white;
+  }
+  
+  
+  
+  /* Contact Us */
+  .w-52{
+   margin: 3% 12%;
+   padding: 3%;
+   color: white;
+  }
+  #contactImage{
+    height: 80vh;
+    width: 100vw;
+  }
+  
+  #mc_embed_signup{
+    background:transparent; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;
+   width: 80vw; 
+   padding: 1% 5%;
+  }
+  
+  #mce-EMAIL,#mce-FNAME,#mce-MMERGE3{
+    background: transparent;
+   color: white;
+   
+  }
+  
+  .name-email{
+   list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  #mce-EMAIL{
+  margin: 2% 4%;
+  }
+  
+  #mce-FNAME{
+    margin: 2% 1%;
+    
+  }
+  
+  #mce-MMERGE3{
+    height: 30vh;
+  }
+  /* Footer */
+  #socialMedia{
+    width: 100vw;
+    padding: 2%  20%;
+  }
+  #s1{
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  
